@@ -10,5 +10,6 @@ router.get('/', function(req, res, next) {
 router.get('/polygons', ctrlMain.get_polygonData);
 router.get('/polygons_mobile', ctrlMain.get_polygonDataForMobile);
 router.get('/services_mobile', ctrlMain.get_serviceDataForMobile);
+router.get('/services_menu', ctrlMain.get_serviceMenuItem);
 
 module.exports = router;

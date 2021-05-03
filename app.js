@@ -10,6 +10,7 @@ var indexRouter = require('./routes/index');
 // mongoose db connection
 var mongoose=require('mongoose');
 
+//const url = 'mongodb://127.0.0.1:4000'
 var url = "mongodb+srv://cmpe295:cmpe295pd@cmpe295icmap-d0o3v.mongodb.net/icmap?retryWrites=true&w=majority";
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
